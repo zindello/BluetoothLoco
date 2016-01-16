@@ -27,15 +27,16 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <title>BluetoothLoco</title>
     </head>
     <body>
         <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+							Loco Address<input type="text" id="locoAddress"><span class="spanButton" id="connectspan class="spanButton"">Connect</span class="spanButton"><br />
+							<span class="spanButton" id="reversespan class="spanButton"">-Rev-</span class="spanButton"><span class="spanButton" id="neutralspan class="spanButton"">-Neutral-</span class="spanButton"><span class="spanButton" id="forwardspan class="spanButton"">-Fwd-</span class="spanButton"><span class="spanButton" id="throtIncFastspan class="spanButton"">T++</span class="spanButton"><br />
+							<span class="spanButton" id="brakeIncspan class="spanButton"">B+</span class="spanButton"><span class="spanButton" id="throtIncspan class="spanButton"">T+</span class="spanButton"><br />
+							<span class="spanButton" id="brakeValue">000</span class="spanButton"><span class="spanButton" id="stopspan class="spanButton"">STOP!</span class="spanButton"><span class="spanButton" id="throtValue">000</span class="spanButton"><br />
+							<span class="spanButton" id="brakeDevspan class="spanButton"">B-</span class="spanButton"><span class="spanButton" id="throtDecspan class="spanButton"">T-</span class="spanButton"><br />
+							<span class="spanButton" id="headlightspan class="spanButton"">Headlight</span class="spanButton"><span class="spanButton" id="Horn">Horn</span class="spanButton"><span class="spanButton" id="throtDecFastspan class="spanButton"">T--</span class="spanButton"><br />
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
